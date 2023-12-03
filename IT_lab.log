@@ -1,0 +1,369 @@
+2023-12-03 10:58:48,120 - DEBUG - db_name not found in request. Using default db
+2023-12-03 10:58:48,120 - DEBUG - database example_db found. Loading database
+2023-12-03 10:58:48,121 - DEBUG - GET index from db 'example_db'
+2023-12-03 10:58:48,121 - DEBUG - tables: ['ExampleTable', 'a']
+2023-12-03 10:59:16,698 - DEBUG - db_name not found in request. Using default db
+2023-12-03 10:59:16,698 - DEBUG - database example_db found. Loading database
+2023-12-03 10:59:16,699 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 10:59:18,439 - DEBUG - db_name not found in request. Using default db
+2023-12-03 10:59:18,439 - DEBUG - database example_db found. Loading database
+2023-12-03 10:59:18,439 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 11:20:51,343 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:20:51,343 - DEBUG - database example_db found. Loading database
+2023-12-03 11:20:51,343 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 11:20:52,308 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:20:52,309 - DEBUG - database example_db found. Loading database
+2023-12-03 11:20:52,309 - DEBUG - POST edit_table/ExampleTable to db 'example_db'
+2023-12-03 11:20:55,800 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:20:55,801 - DEBUG - database example_db found. Loading database
+2023-12-03 11:20:55,801 - DEBUG - POST save_rows/ExampleTable to db 'example_db'
+2023-12-03 11:20:55,801 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 11:20:58,144 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:20:58,144 - DEBUG - database example_db found. Loading database
+2023-12-03 11:20:58,145 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 11:21:00,205 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:00,206 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:00,206 - DEBUG - POST edit_table/ExampleTable to db 'example_db'
+2023-12-03 11:21:02,948 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:02,950 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:02,951 - DEBUG - POST edit_table/ExampleTable to db 'example_db'
+2023-12-03 11:21:18,498 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:18,498 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:18,499 - DEBUG - POST save_edit/ExampleTable to db 'example_db'
+2023-12-03 11:21:18,499 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 11:21:20,720 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:20,721 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:20,721 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 11:21:22,735 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:22,735 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:22,735 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 11:21:23,333 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:23,334 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:23,334 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 11:21:24,403 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:24,403 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:24,404 - DEBUG - POST edit_table/ExampleTable to db 'example_db'
+2023-12-03 11:21:28,968 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:28,969 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:28,969 - DEBUG - POST save_rows/ExampleTable to db 'example_db'
+2023-12-03 11:21:28,969 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 11:21:37,653 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:37,653 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:37,654 - DEBUG - POST save_rows/ExampleTable to db 'example_db'
+2023-12-03 11:21:37,654 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 11:21:39,862 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:39,862 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:39,862 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 11:21:43,362 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:43,362 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:43,363 - DEBUG - POST edit_table/ExampleTable to db 'example_db'
+2023-12-03 11:21:48,241 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:48,242 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:48,243 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 11:21:57,583 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:57,584 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:57,584 - DEBUG - GET index from db 'example_db'
+2023-12-03 11:21:57,584 - DEBUG - tables: ['ExampleTable', 'a']
+2023-12-03 11:21:58,769 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:21:58,769 - DEBUG - database example_db found. Loading database
+2023-12-03 11:21:58,770 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 11:22:00,407 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:22:00,408 - DEBUG - database example_db found. Loading database
+2023-12-03 11:22:00,409 - DEBUG - GET index from db 'example_db'
+2023-12-03 11:22:00,410 - DEBUG - tables: ['ExampleTable', 'a']
+2023-12-03 11:22:01,211 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:22:01,211 - DEBUG - database example_db found. Loading database
+2023-12-03 11:22:01,212 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 11:22:03,394 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:22:03,394 - DEBUG - database example_db found. Loading database
+2023-12-03 11:22:03,395 - DEBUG - GET index from db 'example_db'
+2023-12-03 11:22:03,395 - DEBUG - tables: ['ExampleTable', 'a']
+2023-12-03 11:22:17,590 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:22:17,590 - DEBUG - database 'example_db' not found. Creating new database
+2023-12-03 11:22:17,590 - DEBUG - GET index from db 'example_db'
+2023-12-03 11:22:17,590 - DEBUG - tables: []
+2023-12-03 11:22:18,281 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:22:18,281 - DEBUG - database example_db found. Loading database
+2023-12-03 11:22:18,282 - DEBUG - GET index from db 'example_db'
+2023-12-03 11:22:18,282 - DEBUG - tables: []
+2023-12-03 11:22:19,585 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:22:19,585 - DEBUG - database example_db found. Loading database
+2023-12-03 11:22:19,586 - DEBUG - GET index from db 'example_db'
+2023-12-03 11:22:19,586 - DEBUG - tables: []
+2023-12-03 11:22:23,325 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:22:23,325 - DEBUG - database example_db found. Loading database
+2023-12-03 11:22:23,325 - DEBUG - GET index from db 'example_db'
+2023-12-03 11:22:23,325 - DEBUG - tables: []
+2023-12-03 11:22:23,792 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:22:23,793 - DEBUG - database example_db found. Loading database
+2023-12-03 11:22:23,793 - DEBUG - GET index from db 'example_db'
+2023-12-03 11:22:23,793 - DEBUG - tables: []
+2023-12-03 11:22:36,899 - DEBUG - db_name not found in request. Using default db
+2023-12-03 11:22:36,900 - DEBUG - database example_db found. Loading database
+2023-12-03 11:22:36,900 - DEBUG - GET index from db 'example_db'
+2023-12-03 11:22:36,900 - DEBUG - tables: ['ExampleTable', 'a']
+2023-12-03 12:05:46,826 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:05:46,826 - DEBUG - database example_db found. Loading database
+2023-12-03 12:05:46,827 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:05:46,827 - DEBUG - tables: ['ExampleTable', 'a']
+2023-12-03 12:10:54,410 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:10:54,412 - DEBUG - database example_db found. Loading database
+2023-12-03 12:10:54,417 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:10:54,417 - DEBUG - tables: ['ExampleTable', 'a']
+2023-12-03 12:11:06,892 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:06,892 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:06,893 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:11:16,420 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:16,420 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:16,421 - DEBUG - POST edit_table/ExampleTable to db 'example_db'
+2023-12-03 12:11:30,333 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:30,333 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:30,334 - DEBUG - POST save_edit/ExampleTable to db 'example_db'
+2023-12-03 12:11:30,336 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:11:33,707 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:33,708 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:33,709 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:11:37,141 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:37,142 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:37,142 - DEBUG - POST edit_table/ExampleTable to db 'example_db'
+2023-12-03 12:11:45,706 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:45,708 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:45,708 - DEBUG - POST save_rows/ExampleTable to db 'example_db'
+2023-12-03 12:11:47,192 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:47,194 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:47,199 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:11:49,887 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:49,888 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:49,888 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:11:50,563 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:50,563 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:50,564 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:11:51,302 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:51,303 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:51,303 - DEBUG - POST edit_table/ExampleTable to db 'example_db'
+2023-12-03 12:11:56,506 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:56,507 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:56,507 - DEBUG - POST save_rows/ExampleTable to db 'example_db'
+2023-12-03 12:11:56,968 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:56,969 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:56,971 - DEBUG - POST save_rows/ExampleTable to db 'example_db'
+2023-12-03 12:11:57,202 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:57,202 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:57,202 - DEBUG - POST save_rows/ExampleTable to db 'example_db'
+2023-12-03 12:11:58,002 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:58,002 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:58,003 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:11:59,416 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:11:59,417 - DEBUG - database example_db found. Loading database
+2023-12-03 12:11:59,418 - DEBUG - POST edit_table/ExampleTable to db 'example_db'
+2023-12-03 12:12:02,342 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:12:02,343 - DEBUG - database example_db found. Loading database
+2023-12-03 12:12:02,344 - DEBUG - POST save_rows/ExampleTable to db 'example_db'
+2023-12-03 12:12:02,344 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:12:04,540 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:12:04,540 - DEBUG - database example_db found. Loading database
+2023-12-03 12:12:04,541 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:16:01,370 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:16:01,370 - DEBUG - database example_db found. Loading database
+2023-12-03 12:16:01,370 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:16:01,370 - DEBUG - tables: ['ExampleTable', 'a']
+2023-12-03 12:16:12,421 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:16:12,422 - DEBUG - database example_db found. Loading database
+2023-12-03 12:16:12,423 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:16:17,770 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:16:17,771 - DEBUG - database example_db found. Loading database
+2023-12-03 12:16:17,771 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:16:17,772 - DEBUG - tables: ['ExampleTable', 'a']
+2023-12-03 12:16:22,022 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:16:22,023 - DEBUG - database example_db found. Loading database
+2023-12-03 12:16:22,024 - DEBUG - POST add_table/new to db 'example_db'
+2023-12-03 12:16:22,024 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:16:22,036 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:16:22,036 - DEBUG - database example_db found. Loading database
+2023-12-03 12:16:22,036 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:16:22,036 - DEBUG - tables: ['ExampleTable', 'a', 'new']
+2023-12-03 12:16:23,665 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:16:23,666 - DEBUG - database example_db found. Loading database
+2023-12-03 12:16:23,666 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:16:26,141 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:16:26,141 - DEBUG - database example_db found. Loading database
+2023-12-03 12:16:26,142 - DEBUG - POST edit_table/new to db 'example_db'
+2023-12-03 12:16:45,010 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:16:45,010 - DEBUG - database example_db found. Loading database
+2023-12-03 12:16:45,010 - DEBUG - POST save_edit/new to db 'example_db'
+2023-12-03 12:16:45,011 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:16:49,853 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:16:49,854 - DEBUG - database example_db found. Loading database
+2023-12-03 12:16:49,854 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:16:51,503 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:16:51,504 - DEBUG - database example_db found. Loading database
+2023-12-03 12:16:51,504 - DEBUG - POST edit_table/new to db 'example_db'
+2023-12-03 12:16:59,199 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:16:59,199 - DEBUG - database example_db found. Loading database
+2023-12-03 12:16:59,199 - DEBUG - POST save_rows/new to db 'example_db'
+2023-12-03 12:16:59,199 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:17:06,097 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:17:06,098 - DEBUG - database example_db found. Loading database
+2023-12-03 12:17:06,099 - DEBUG - POST save_rows/new to db 'example_db'
+2023-12-03 12:17:06,100 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:17:08,662 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:17:08,663 - DEBUG - database example_db found. Loading database
+2023-12-03 12:17:08,664 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:17:12,903 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:17:12,904 - DEBUG - database example_db found. Loading database
+2023-12-03 12:17:12,904 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:17:12,904 - DEBUG - tables: ['ExampleTable', 'a', 'new']
+2023-12-03 12:17:18,073 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:17:18,073 - DEBUG - database example_db found. Loading database
+2023-12-03 12:17:18,073 - DEBUG - POST add_table/new2 to db 'example_db'
+2023-12-03 12:17:18,073 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:17:18,083 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:17:18,083 - DEBUG - database example_db found. Loading database
+2023-12-03 12:17:18,083 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:17:18,084 - DEBUG - tables: ['ExampleTable', 'a', 'new', 'new2']
+2023-12-03 12:17:24,389 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:17:24,390 - DEBUG - database example_db found. Loading database
+2023-12-03 12:17:24,390 - DEBUG - DELETE del_table/new from db 'example_db'
+2023-12-03 12:17:24,390 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:17:24,397 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:17:24,397 - DEBUG - database example_db found. Loading database
+2023-12-03 12:17:24,397 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:17:24,397 - DEBUG - tables: ['ExampleTable', 'a', 'new2']
+2023-12-03 12:17:25,061 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:17:25,061 - DEBUG - database example_db found. Loading database
+2023-12-03 12:17:25,061 - DEBUG - DELETE del_table/new2 from db 'example_db'
+2023-12-03 12:17:25,061 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:17:25,072 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:17:25,072 - DEBUG - database example_db found. Loading database
+2023-12-03 12:17:25,073 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:17:25,073 - DEBUG - tables: ['ExampleTable', 'a']
+2023-12-03 12:17:26,764 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:17:26,766 - DEBUG - database example_db found. Loading database
+2023-12-03 12:17:26,767 - DEBUG - DELETE del_table/a from db 'example_db'
+2023-12-03 12:17:26,767 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:17:26,776 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:17:26,776 - DEBUG - database example_db found. Loading database
+2023-12-03 12:17:26,777 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:17:26,777 - DEBUG - tables: ['ExampleTable']
+2023-12-03 12:19:58,852 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:19:58,869 - DEBUG - database example_db found. Loading database
+2023-12-03 12:19:58,869 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:19:58,869 - DEBUG - tables: ['ExampleTable']
+2023-12-03 12:20:09,404 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:20:09,405 - DEBUG - database example_db found. Loading database
+2023-12-03 12:20:09,406 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:20:14,890 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:20:14,893 - DEBUG - database example_db found. Loading database
+2023-12-03 12:20:14,893 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:20:14,893 - DEBUG - tables: ['ExampleTable']
+2023-12-03 12:20:20,043 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:20:20,044 - DEBUG - database example_db found. Loading database
+2023-12-03 12:20:20,044 - DEBUG - POST add_table/new to db 'example_db'
+2023-12-03 12:20:20,044 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:20:20,060 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:20:20,061 - DEBUG - database example_db found. Loading database
+2023-12-03 12:20:20,062 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:20:20,062 - DEBUG - tables: ['ExampleTable', 'new']
+2023-12-03 12:20:21,155 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:20:21,156 - DEBUG - database example_db found. Loading database
+2023-12-03 12:20:21,156 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:20:22,979 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:20:22,979 - DEBUG - database example_db found. Loading database
+2023-12-03 12:20:22,980 - DEBUG - POST edit_table/new to db 'example_db'
+2023-12-03 12:20:33,402 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:20:33,403 - DEBUG - database example_db found. Loading database
+2023-12-03 12:20:33,403 - DEBUG - POST save_edit/new to db 'example_db'
+2023-12-03 12:20:33,404 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:20:45,073 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:20:45,074 - DEBUG - database example_db found. Loading database
+2023-12-03 12:20:45,074 - DEBUG - POST save_edit/new to db 'example_db'
+2023-12-03 12:20:45,075 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:20:46,789 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:20:46,790 - DEBUG - database example_db found. Loading database
+2023-12-03 12:20:46,790 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:20:48,439 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:20:48,440 - DEBUG - database example_db found. Loading database
+2023-12-03 12:20:48,440 - DEBUG - POST edit_table/new to db 'example_db'
+2023-12-03 12:20:54,656 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:20:54,656 - DEBUG - database example_db found. Loading database
+2023-12-03 12:20:54,657 - DEBUG - POST save_rows/new to db 'example_db'
+2023-12-03 12:20:54,657 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:21:01,409 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:01,409 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:01,410 - DEBUG - POST save_rows/new to db 'example_db'
+2023-12-03 12:21:02,184 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:02,184 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:02,184 - DEBUG - POST save_rows/new to db 'example_db'
+2023-12-03 12:21:02,465 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:02,465 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:02,465 - DEBUG - POST save_rows/new to db 'example_db'
+2023-12-03 12:21:02,684 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:02,685 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:02,685 - DEBUG - POST save_rows/new to db 'example_db'
+2023-12-03 12:21:02,912 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:02,912 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:02,912 - DEBUG - POST save_rows/new to db 'example_db'
+2023-12-03 12:21:03,239 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:03,239 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:03,239 - DEBUG - POST save_rows/new to db 'example_db'
+2023-12-03 12:21:05,819 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:05,820 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:05,821 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:21:07,351 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:07,352 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:07,352 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:21:07,352 - DEBUG - tables: ['ExampleTable', 'new']
+2023-12-03 12:21:12,165 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:12,165 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:12,166 - DEBUG - POST add_table/new2 to db 'example_db'
+2023-12-03 12:21:12,166 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:21:12,179 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:12,181 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:12,182 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:21:12,182 - DEBUG - tables: ['ExampleTable', 'new', 'new2']
+2023-12-03 12:21:13,796 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:13,796 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:13,797 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:21:16,726 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:16,727 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:16,728 - DEBUG - POST edit_table/new2 to db 'example_db'
+2023-12-03 12:21:27,390 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:27,391 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:27,391 - DEBUG - POST save_edit/new2 to db 'example_db'
+2023-12-03 12:21:27,391 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:21:31,172 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:31,172 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:31,172 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:21:32,283 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:32,286 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:32,287 - DEBUG - POST edit_table/new2 to db 'example_db'
+2023-12-03 12:21:40,554 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:40,555 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:40,555 - DEBUG - POST save_rows/new2 to db 'example_db'
+2023-12-03 12:21:40,555 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:21:42,434 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:42,434 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:42,435 - DEBUG - GET get_table from db 'example_db'
+2023-12-03 12:21:43,161 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:43,162 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:43,162 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:21:43,162 - DEBUG - tables: ['ExampleTable', 'new', 'new2']
+2023-12-03 12:21:51,499 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:51,499 - DEBUG - database example_db found. Loading database
+2023-12-03 12:21:57,026 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:21:57,027 - DEBUG - database example_db found. Loading database
+2023-12-03 12:22:21,527 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:22:21,528 - DEBUG - database example_db found. Loading database
+2023-12-03 12:22:25,163 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:22:25,163 - DEBUG - database example_db found. Loading database
+2023-12-03 12:22:25,164 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:22:25,164 - DEBUG - tables: ['ExampleTable', 'new', 'new2']
+2023-12-03 12:22:29,698 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:22:29,698 - DEBUG - database example_db found. Loading database
+2023-12-03 12:22:29,699 - DEBUG - DELETE del_table/new from db 'example_db'
+2023-12-03 12:22:29,699 - DEBUG - saving database 'example_db' to databases/example_db.pkl
+2023-12-03 12:22:29,708 - DEBUG - db_name not found in request. Using default db
+2023-12-03 12:22:29,709 - DEBUG - database example_db found. Loading database
+2023-12-03 12:22:29,710 - DEBUG - GET index from db 'example_db'
+2023-12-03 12:22:29,710 - DEBUG - tables: ['ExampleTable', 'new2']
+2023-12-03 16:44:18,875 - DEBUG - saving database 'example_db' to databases/example_db.pkl

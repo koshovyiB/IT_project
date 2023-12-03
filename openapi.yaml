@@ -1,0 +1,158 @@
+openapi: 3.0.0
+info:
+  title: Database API
+  version: 1.0.0
+paths:
+  /:
+    get:
+      summary: Get index
+      responses:
+        '200':
+          description: Successful response
+  /product:
+    get:
+      summary: Get product
+      responses:
+        '200':
+          description: Successful response
+  /get_product:
+    get:
+      summary: Get product data
+      parameters:
+        - name: table1
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: table2
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+  /get_table/{table_name}:
+    get:
+      summary: Get table by name
+      parameters:
+        - name: table_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+  /del_table/{table_name}:
+    delete:
+      summary: Delete table by name
+      parameters:
+        - name: table_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+  /edit_table/{table_name}:
+    get:
+      summary: Get table for editing by name
+      parameters:
+        - name: table_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+  /edit_rows/{table_name}:
+    get:
+      summary: Get rows for editing by table name
+      parameters:
+        - name: table_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+  /save_edit/{table_name}:
+    post:
+      summary: Save table edits by name
+      parameters:
+        - name: table_name
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                columns:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                      type:
+                        type: string
+                # Add other required properties
+      responses:
+        '200':
+          description: Successful response
+  /save_rows:
+    post:
+      summary: Save rows
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                table_name:
+                  type: string
+                rows:
+                  type: array
+                  items:
+                    type: array
+                    items:
+                      type: string
+                # Add other required properties
+      responses:
+        '200':
+          description: Successful response
+  /add_table/{table_name}:
+    post:
+      summary: Add table by name
+      parameters:
+        - name: table_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+  /json_table/{table_name}:
+    get:
+      summary: Get table in JSON format by name
+      parameters:
+        - name: table_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+  /search/{table_name}:

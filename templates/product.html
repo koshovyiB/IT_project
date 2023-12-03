@@ -1,0 +1,116 @@
+<!-- templates/app.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ table_name }}</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+<a class="btn btn-primary ml-4 mt-4" href="{{ url_for('index') }}"> Back to DB </a>
+<div class="container mt-4">
+
+    <!-- Dropdowns for selecting tables -->
+    <div class="form-group">
+        <label for="table1">Select Table 1:</label>
+        <select class="form-control" id="table1">
+            {% for table in tables %}
+                <option value="{{ table }}">{{ table }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="table2">Select Table 2:</label>
+        <select class="form-control" id="table2">
+            {% for table in tables %}
+                <option value="{{ table }}">{{ table }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <!-- Button to trigger AJAX request -->
+    <button class="btn btn-success" onclick="getResult()">Get Result</button>
+
+    <!-- Display area for the response -->
+    <div id="resultArea" class="mt-4"></div>
+</div>
+
+<!-- Bootstrap JS and jQuery (required for AJAX) -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<script>
+    function getResult() {
+        // Get selected table values
+        var table1 = document.getElementById("table1").value;
+        var table2 = document.getElementById("table2").value;
+
+        // Make AJAX request
+        $.ajax({
+            url: "/get_product",
+            method: "GET",
+            data: {table1: table1, table2: table2},
+            success: function (response) {
+                // Display the response
+                displayResult(response);
+            },
+            error: function (error) {
+                console.error("Error fetching data:", error);
+            }
+        });
+    }
+
+    function displayResult(response) {
+        // Access elements in the response and display them in resultArea
+        var resultArea = document.getElementById("resultArea");
+        resultArea.innerHTML = '';
+
+        if (!response["res"]){
+            resultArea.innerHTML = '<h2>Wrong product</h2>';
+            return;
+        }
+
+        // Loop through each table (res, table1, table2)
+        Object.keys(response).forEach(function (tableName) {
+            var tableData = response[tableName];
+
+            // Create a table
+            var tableHTML = '<table class="table table-bordered mt-4"><thead><tr>';
+
+            // Add table headers
+            tableData.columns.forEach(function (column) {
+                tableHTML += '<th>' + column.name + '</th>';
+            });
+
+            // Close the table row for headers
+            tableHTML += '</tr></thead><tbody>';
+
+            // Add table rows
+            tableData.rows.forEach(function (row) {
+                tableHTML += '<tr>';
+                row.forEach(function (value) {
+                    tableHTML += '<td>' + value + '</td>';
+                });
+                tableHTML += '</tr>';
+            });
+
+            // Close the table body and table
+            tableHTML += '</tbody></table>';
+
+            // Append the table HTML to resultArea
+            resultArea.innerHTML += '<h2>' + tableData.name + '</h2>' + tableHTML;
+        });
+    }
+</script>
+</body>
+</html>
